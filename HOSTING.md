@@ -44,11 +44,25 @@ every form, the 3,152-CMR lookup, and PDF generation.
 Same address in Chrome or Edge → the install icon at the right of the address
 bar → Install. It gets a Start-menu entry and its own window.
 
-## Updating it
+## Releasing a new version
 
-Replace the files and the crews pick it up next time they open the app with a
-signal. They are told, not interrupted: a sheet in progress is never reloaded
-underneath them, and the new version is used on the next launch.
+Replace the files on the host. That is the whole of it — no reinstall, no
+sideloading, nothing for the crews to do by hand.
+
+They get it three ways, in order of how soon:
+
+1. **They ask.** Settings has a **Version** card with a *Check for updates*
+   button. It says either "Up to date" or "Version 0.69 is available" and
+   installs it on the spot, taking a few seconds and reopening the app. Nothing
+   on the device is lost — records, photos and the chosen folder all stay.
+2. **They are told.** Next time the app opens with a signal it notices by itself
+   and says so. It does not interrupt: a sheet in progress is never reloaded
+   underneath them.
+3. **Eventually, on its own**, whenever the browser next re-checks.
+
+The version shown in Settings is the release number plus a hash of the build —
+`0.68-67bdd928`. Worth reading out when someone reports something odd, because
+it identifies the exact build they are running rather than just the number.
 
 ## What is not in this build
 
