@@ -12,7 +12,7 @@
 
    VERSION is bumped by the build. Changing it is what makes a new release
    install: the old cache is thrown away and the new files are taken. */
-var VERSION = "0.72-14d5873e";
+var VERSION = "0.73-dcad8c5c";
 var CACHE   = "acorn-" + VERSION;
 
 /* Everything the app is. index.html is the big one (8 MB) because it carries
