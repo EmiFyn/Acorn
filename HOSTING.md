@@ -72,3 +72,10 @@ it identifies the exact build they are running rather than just the number.
 - **Filing PDFs into folders** works in Chrome on Android 132+ and on Chrome or
   Edge on Windows. Where the browser has no folder access the Save button on the
   finish screen still works and the settings screen says so.
+
+## Landowner Search (0.80)
+
+The Consent Archive tile is now **Landowner Search**. It reads `landowners.enc`, which the office's
+Consent Filer publishes into this same folder after every run. The file is encrypted, and each device
+asks once for the team passcode. Until the office has published it, the tile says so. Setup is
+covered in ConsentFiler\ACORN-LANDOWNER-SEARCH.md.
